@@ -9,15 +9,14 @@
     $color=$_POST['txtcolor'];
     $capacidad=$_POST['txtcapacidad'];
     $descripcion=$_POST['textdescripcion'];
-    $fecha=$_POST['date'];
+    
 
     $datos=array($nombreDispositivos,
     $modelo,
     $marca,
     $color,
     $capacidad,
-    $descripcion,
-    $fecha);
+    $descripcion);
 
     $obj=new metodos();
     if ($obj->insertarDatosComputo($datos)==1) {

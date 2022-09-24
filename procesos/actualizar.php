@@ -9,7 +9,6 @@
     $color=$_POST['txtcolor'];
     $capacidad=$_POST['txtcapacidad'];
     $descripcion=$_POST['textdescripcion'];
-    $fecha=$_POST['date'];
     $idComputo=$_POST['idComputo'];
 
 
@@ -19,7 +18,6 @@
     $color,
     $capacidad,
     $descripcion,
-    $fecha,
     $idComputo);
 
     $obj=new metodos();
